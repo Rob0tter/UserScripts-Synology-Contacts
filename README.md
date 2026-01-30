@@ -1,22 +1,28 @@
-![Logo](./logo.png)
+![Logo](./_logo.png)
  
-# Repo Name
+# Pimp my Contacts
 
-Short description
+Order by last name, use german date format, add context menu for contact details and much more
 
 ## Installation
-No installation necessary, just copy the executable and the ini file in the same folder and run.
+In your browser, you need a userscript engine installed like TamperMonkey or GreaseMonkey.
+Within the monkey, add this script with regard to your Calendar web address. After reloading, the script will apply.
 
 ## Description
-Long description
+- Ever wanted to have your contacts ordered and displayed with their lastname first? The script is the answer!
+- Furthermore, you can add custom context actions to data fields when displaying a contact card.
+- When using your own data categories, i.e. "Wedding" for the date when people have married, Synology will always convert that string to lower case. Now you have the option to re-capitalize that - just a little annoyance, but it made me crazy...
+- All date fields are formated in ISO format YYYY-M-D. Now they can be localized to german format DD.MM.YYYY-M-D
+
+You can switch all options on and off separately inside the script code.
+
+## Limitations
+At the moment, only languages english (locale: en) and german (locale: de) are supported. Please make sure to set the proper locale for your language in the script´s configuration area!
 
 ## Tested environments
-This program is tested to work with at least:
+This UserScript has been tested with:
 
-- Windows 11 Pro 24H2
-- Windows 11 Pro 25H2
-
-## Compile instructions
-AutoHotkey v2 is necessary to run and compile this script.
-All compiler settings are in the script file, no further settings needed in the GUI of AHK2EXE.
-The script is designed to be run on the command line as well as resident in the tray.
+- Synology Contacts 1.0.10
+- Chrome 143
+- TamperMonkey 5.4.1
+- Windows 11
