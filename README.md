@@ -12,7 +12,7 @@ Within the monkey, add this script with regard to your Calendar web address. Aft
 - Ever wanted to have your contacts ordered and displayed with their lastname first? The script is the answer!
 - Furthermore, you can add custom context actions to data fields when displaying a contact card.
 - When using your own data categories, i.e. "Wedding" for the date when people have married, Synology will always convert that string to lower case. Now you have the option to re-capitalize that - just a little annoyance, but it made me crazy...
-- All date fields are formated in ISO format YYYY-M-D. Now they can be localized to german format DD.MM.YYYY-M-D
+- All date fields are formated in ISO format YYYY-M-D. Now they can be localized to german format DD.MM.YYYY
 
 You can switch all options on and off separately inside the script code.
 
